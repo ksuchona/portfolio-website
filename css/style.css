@@ -1,0 +1,362 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.header{
+	width: 100%;
+	margin: 0px auto;
+	height: 600px;
+	float: left;
+	background:#303179 ;
+	border-bottom: solid 15px #303179;
+}
+.header h1{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 20px 0px;
+	color: 	#ed7966;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+.header .menu{
+	list-style: none;
+	text-align: left;
+}
+.header .menu a{
+	display: inline-block;
+	margin: 0px 0px;
+	transition: 1s;
+}
+.header .menu li{
+	font-size: 14px;
+	font-weight: 500px;
+	color: #fae5df;
+	margin: 0px 25px 0px 0px;
+}
+.blue{
+	background: #303179;
+	width: 100%;
+	height: 400px;
+	float: left;
+	text-align: left;
+	position: relative;
+}
+.blue h2{
+	font-size: 30px;
+	font-weight: 500;
+	padding: 5px 0px;
+	color:#ed7966;
+	position: absolute;
+	top: 130px;
+	left: 150px;
+}
+.blue h1{
+	font-size: 60px;
+	font-weight: 700;
+	padding: 5px 0px;
+	color:#fae5df;
+	position: absolute;
+	top: 158px;
+	left: 150px;
+	line-height: 70px;
+	letter-spacing: 1px;
+}
+.blue p{
+	font-size: 12px;
+	font-weight: 400;
+	padding: 5px 0px;
+	color:#fae5df;
+	position: absolute;
+	top: 310px;
+	left: 150px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.image{
+	width: 100%;
+	float: left;
+	text-align: right;
+	border-bottom: solid 17px #ffff;
+}
+.image img{
+	width: 100%;
+	float: left;
+	height: 600px;
+	text-align: right;
+	margin-top: -95px;
+	height: 600px;
+}
+.header .social-0{
+	position: relative;
+}
+.header .social-0 ul{
+	list-style: none;
+	background-color: #ed7966;
+	height: 160	PX;
+	width: 40px;
+	border-radius: 3px 0px 0px 3px;
+	position: absolute;
+	top: -360px;
+	right: 0px;
+}
+.header .social-0 li{
+	font-size: 17px;
+	padding: 7px 0px; 
+	transition: 1s;
+	text-align: center;
+}
+.header .social-0 a{
+	color: #121212;
+}
+.header .social-0 li:hover{
+ background-color: #fae5df;
+}
+/*-----------about-scetion start----------*/
+.about-section{
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+	background: #fae5df;
+	padding-bottom: 30px;
+}
+.about-section h1{
+	padding: 30px 0px;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 20px;
+	color: #ed7966;
+	text-transform: capitalize;
+}
+.about-section p{
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.about-section .button{
+	padding: 10px;
+	margin: 40px 0px;
+	transition: 1s;
+	border: 1px solid #ed7966;
+	border-radius: 3px;
+	background-color:#ed7966;
+}
+.about-section .button a{
+	color: black;
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.about-section .button:hover{
+	background-color: #fae5df;
+}
+.about-section .button a:hover{
+	color: black;
+}
+/*-------------------showreel-scetion start here---------*/
+.showreel-scetion-1{
+	width: 100%;
+}
+.showreel-section-1 h1{
+	padding: 50px 0px;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 20px 0px;
+	color: #ed7966;
+	text-transform: capitalize;
+	text-align: center;
+}
+.showreel-section-2{
+	width: 100%;
+	margin-top: 170px;
+	position: relative;
+}
+.showreel-section-2 .pic{
+	background-size: fill;
+	background-repeat: no-repeat;
+}
+.showreel-section-2 ul{
+	list-style: none;
+}
+.showreel-section-2 li{
+	display: inline-block;
+	color: #ffffff;
+}
+.showreel-section-2 ul .ic{
+	font-size: 40px;
+	color: #ffffff;
+	position: absolute;
+	top: 295px;
+	left: 580px;
+	transition: 1s;
+}
+.showreel-section-2 ul .play{
+	font-size: 20px;
+	position: absolute;
+	top: 303px;
+	left: 620px;
+	border-bottom: 2px solid #F5f5f5;
+}
+.showreel-section-2 ul .ic:hover{
+	color: #ed7966;
+}
+.showreel-section-2 ul .play:hover{
+	background-color:#fae5df ;
+	color: #ed7966
+}
+/*photo-section start here*/
+.photo-section{
+	width: 100% ;
+
+}
+.photo-section h1{
+	font-size: 40px;
+	padding: 60px 0px;
+	font-weight: 600;
+	text-align: center;
+	text-transform: capitalize;
+	color:#ed7966 ;
+}
+
+.photo-section .man-01 img{
+	width: 70%;
+	float: left;
+	height: 300px;
+	margin-left:45px;
+}
+.photo-section .man-02 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+	margin-left: -50px;
+}
+.photo-section .man-03 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+	margin-left:-33px;
+}
+.photo-section-2{
+	width: 900px;
+	float: left;
+	margin-top: 15px;
+}
+.photo-section-2 .man-01 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+	margin-left:107px;
+}
+.photo-section-2 .man-02 img{
+	width: 100%;
+	float: left;
+	height: 300px;
+	margin-left: 125px;
+}
+.photo-section-2 .man-03 img{
+	width: 70%;
+	float: left;
+	height: 300px;
+	margin-left: 142px;
+}
+/*contact-section start here*/
+.contact-section{
+	margin-top: 90px;
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	position: relative;
+}
+.contact-section img{
+	float: left;	
+}
+.contact-section .cl{
+	width: 100%;
+	height: 600px;
+	float: left;
+	background-color: #303179;
+	color: #fae5df;
+	position: relative;
+}
+.contact-section .cl .de{
+	position: absolute;
+	top: 80px;
+	left: 180px;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.contact-section .cl .de h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #ed7966 ;
+}
+
+.contact-section .cl .de h2{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.contact-section .cl .de h4{
+	font-size: 13px;
+	font-weight: 400;
+}
+.contact-section .social ul{
+	list-style: none;
+	position: absolute;
+	top: 500px;
+	left: 172px;
+}
+.contact-section .social li{
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 11px;
+	transition: 1s;
+}
+.contact-section .social a{
+	color: #fae5df;
+}
+.contact-section .social li a:hover{
+	color:#ed7966 ;
+}
+/*footer-section start here*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	text-align: center;
+}
+.footer-section p{
+	font-size: 9px;
+	font-weight: 400;
+}
